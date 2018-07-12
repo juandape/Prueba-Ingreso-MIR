@@ -1,0 +1,57 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 10/07/2018, 08:18:06 PM
+    Author     : JUANCHITO-PC
+*/
+root {
+    display: block;
+}
+
+body{
+    background: url('../imagenes/rowan-heuvel-110602-unsplash.jpg')no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.img{
+   /* -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg); */
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border: 5px solid;
+    border-color: white;
+    display: block;
+    margin: auto;
+    margin-top: 10%;
+}
+
+@font-face{
+   font-family: "WendyOne-Regular";
+   src: local("WendyOne-Regular"), url(../WendyOne-Regular.ttf) format("truetype");
+}
+.nombre{
+    font-family: "WendyOne-Regular";
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 2%;
+    
+}
+
+.ciudad{
+    color: white;
+    font-family: "WendyOne-Regular";
+    font-size: 25px;
+    text-align: center;
+    margin-top: 2%;
+    font-style: italic;
+}
+
+
